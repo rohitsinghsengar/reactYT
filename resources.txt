@@ -1,0 +1,9 @@
+For youtube player embedding
+https://developers.google.com/youtube/
+https://developers.google.com/youtube/js_api_reference
+https://developers.google.com/youtube/player_parameters
+https://developers.google.com/youtube/youtube_player_demo
+
+For Youtube video searching
+https://developers.google.com/youtube/v3/docs/search
+https://www.youtube.com/yt/dev/api-resources.html

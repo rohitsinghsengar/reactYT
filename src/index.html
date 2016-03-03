@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Youtube like app built in reactjs and flux">
+  <meta name="author" content="Rohit Sengar">
+  <title>Youtube built with React</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<h2>Youtube ReactJS App</h2>
+			<input placeholder="Search youtube.." value="" id="queryInput" />
+			<input type="button" value="Search" id="queryButton"  />
+		</div>
+		<div class="left-panel">
+			<div id="player"></div>
+			<div id="searchList"></div>
+		</div>
+		<div class="right-panel">
+			<h4>Play List</h4>
+			<div id="playList"></div>
+		</div>
+	</div>
+	<script src="client.min.js"></script>
+</body>
+
+</html>

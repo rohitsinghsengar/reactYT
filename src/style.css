@@ -1,0 +1,114 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+	margin: 10px;
+}
+
+p{
+	margin: 5px 0px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	width: 100%;
+}
+
+ul li{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+
+ul li img{
+	width: 100%;
+	height: 100%;
+}
+
+ul li  .info{
+    position: absolute;
+	top: 0px;
+    background-color: #000;
+    opacity: 0.8;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+	box-sizing: border-box;
+	display: none;
+	padding: 10px;
+}
+
+ul li  .info p{
+	bottom: 0px;
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+ul li.active{
+	border: 2px solid blue;
+}
+
+ul li:hover  .info{
+	display: block;
+}
+
+.hidden{
+	display: none;
+}
+
+.container{
+	width: 980px;
+	margin: 0px auto;
+}
+
+.header{
+	width: 100%;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ababab;
+}
+
+.header h2, .header input{
+	display: inline-block;
+}
+
+.header input{
+	font-size: 1.1em;
+}
+
+.left-panel{
+	float: left;
+	width: 700px;
+	border-right: 1px solid #ababab;
+}
+
+#player{
+	width: 700px;
+	height: 400px;
+	margin-bottom: 20px;
+}
+
+.left-panel ul li{
+	width: 212px;
+	height: 115px;
+	box-sizing: border-box;
+	margin: 0px 20px 20px 0px;
+}
+
+.right-panel{
+	float: right;
+	width: 260px;
+}
+
+.right-panel ul li{
+	width: 100%;
+	height: 130px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
